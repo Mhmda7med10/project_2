@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #44A08D;
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);
+    background: linear-gradient(to right, #093637, #44A08D);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.parent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cild-1 img {
+    margin-left: 35px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #093637;
+    transition: all .5s;
+    border-radius: 10px;
+    box-shadow: 1px 1px #44A08D;
+}
+
+.cild-1 img:hover {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.cild-2 pre {
+    font-size: 25px;
+    padding: 55px;
+}
+
+table {
+    width: 94%;
+    height: 500px;
+}
+
+td,
+th {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}a{
+    text-decoration: none;
+    color: #000;
+}
+tr:hover,a:hover{
+    background: #44A08D;
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);
+    background: linear-gradient(to right, #093637, #44A08D);
+    /* background-color: #44A08D; */
+}footer{
+    margin-top: 10px;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-size: x-large;
+    color: #fff;
+}footer:hover{
+    color:#000 ;
+}.First {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head .Second {
+    display: none;
+    color: #fff;
+}.head:hover .Second {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+}
